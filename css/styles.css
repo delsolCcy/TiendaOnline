@@ -43,3 +43,13 @@ button{
     border-radius:8px;
 
 }
+
+/*Media queries para tables*/
+
+@media (min-width: 600px){
+    section{
+        grid-template-columns: repeat(2, 1f);
+        
+    }
+    
+}
